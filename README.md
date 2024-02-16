@@ -1,6 +1,6 @@
 # energy-tariff-analysis
 
-Looking at analysing the data from my Tesla battery and modelling energy provider tariffs.o
+Looking at analysing the data from my Tesla battery and modelling energy provider tariffs.
 
 This project relies on an Elasticsearch instance running. I am using my own [Docker based Elasticsearch project](https://github.com/hindmasj/my-elasticsearch-cluster). Begin by running this cluster.
 
