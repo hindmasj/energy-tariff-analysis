@@ -13,3 +13,23 @@ Manually load a data extract using the Kibana Data Visualiser.
 3. Click "Import".
 4. The index name should begin with "tesla-powerwall-" and include a date suffix that relates to the data in the file, either "yyyy-mm" for monthly data or "yyyy-mm-dd" for daily data.
 
+## Using venv
+
+The script is designed to work with a python virtual environment such as venv.
+
+### Initiating Venv
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install requests
+```
+
+### Using Venv
+
+```
+source .venv/bin/activate
+./main.py
+deactivate
+```
+
